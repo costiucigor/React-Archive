@@ -1,0 +1,80 @@
+.gallery1-gallery3 {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.gallery1-max-width {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery1-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.gallery1-text {
+  text-align: center;
+}
+.gallery1-text1 {
+  text-align: center;
+}
+.gallery1-slider {
+  width: 1042px;
+  height: 300px;
+  display: inline-block;
+}
+.gallery1-slider-slide {
+  width: 1035px;
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698778574083-279be0ac6681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzU2N3w&ixlib=rb-4.0.3&q=80&w=1100');
+}
+.gallery1-slider-slide1 {
+  width: 1042px;
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1697384333613-de519c7367c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzAzN3w&ixlib=rb-4.0.3&q=80&w=1100');
+}
+.gallery1-slider-slide2 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698180687511-bd6c0104ee98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzQ5NXw&ixlib=rb-4.0.3&q=80&w=1100');
+}
+.gallery1-slider-pagination {
+  display: block;
+}
+.gallery1-slider-button-prev {
+  display: block;
+}
+.gallery1-slider-button-next {
+  display: block;
+}
+.gallery1-content {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+@media(max-width: 991px) {
+  .gallery1-content {
+    align-items: center;
+    flex-direction: column;
+  }
+}

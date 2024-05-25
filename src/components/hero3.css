@@ -1,0 +1,95 @@
+.hero3-header9 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.hero3-slider {
+  width: 1200px;
+  height: 646px;
+  display: inline-block;
+}
+.hero3-slider-slide {
+  width: 1200px;
+  height: 652px;
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698778574083-279be0ac6681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzU2N3w&ixlib=rb-4.0.3&q=80&w=1200');
+}
+.hero3-slider-slide1 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1697384333613-de519c7367c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzAzN3w&ixlib=rb-4.0.3&q=80&w=1200');
+}
+.hero3-slider-slide2 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698180687511-bd6c0104ee98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzQ5NXw&ixlib=rb-4.0.3&q=80&w=1200');
+}
+.hero3-slider-pagination {
+  display: block;
+}
+.hero3-content {
+  display: flex;
+  justify-content: center;
+}
+.hero3-max-width {
+  align-self: center;
+  align-items: center;
+}
+.hero3-column {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero3-column1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero3-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+@media(max-width: 991px) {
+  .hero3-column {
+    width: 100%;
+  }
+  .hero3-column1 {
+    width: auto;
+  }
+}
+@media(max-width: 767px) {
+  .hero3-text {
+    text-align: center;
+  }
+  .hero3-text1 {
+    text-align: center;
+  }
+  .hero3-actions {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .hero3-actions {
+    flex-direction: column;
+  }
+  .hero3-button {
+    width: 100%;
+  }
+  .hero3-button1 {
+    width: 100%;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}
